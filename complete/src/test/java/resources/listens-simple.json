@@ -1,0 +1,49 @@
+[
+    {
+        "subtopic": "1",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "A"
+    },
+    {
+        "subtopic": "4",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "A"
+    },
+    {
+        "subtopic": "5",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "A"
+    },
+
+    {
+        "subtopic": "1",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "B"
+    },
+    {
+        "subtopic": "3",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "B"
+    },
+    {
+        "subtopic": "5",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "B"
+    },
+
+    {
+        "subtopic": "2",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "C"
+    },
+    {
+        "subtopic": "3",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "C"
+    },
+    {
+        "subtopic": "5",
+        "listenDate": "2016-04-01T17:23:44.835000",
+        "user": "C"
+    }
+]

@@ -1,0 +1,31 @@
+Project Setup:
+1) WebFramework: SpringBoot 1.5.3.RELEASE
+2) Gradle :2.13
+3) Java: 1.7.45
+
+
+How to Run:
+0) Unzip the folder
+1) cd complete
+2) ./gradlew clean
+3) ./gradlew bootRun
+
+
+Design:
+
+Interface:
+IRecommendation
+
+Class
+RecommendationEngine implements IRecommendation
+
+1) Creates Map of UserId to Set of subTopicId
+2) Creates Map of subTopicId to Set of UserId
+3) Gets the Set of Users for the given subTopicId
+4) Gets the List of Sets of subTopicIds for gives Set of Users from Step-3
+5) Gets the list of recommended MeditationId List. This method performs caching, if Recommendation List already Exists
+
+6) {A, B, C} -> 3 Combination with 2 will generate list {AB, AC, BC}. AB is intersection of A & B.
+Refrence:(Method-2) http://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/
+7) Step-6 is Applied to List of Sets of subTopicIds generated in Step 4.
+
